@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010101;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+}
+
+.olho {
+    height: 50%;
+    width: 50%;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Alinha os bagui de cima pra baixo */
+}
+
+.senha {
+    border-radius: 5px;
+    border: 1px solid rgb(95, 95, 95);
+    background-color: #010101;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+}
+
